@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Project</title>
+
+<!--Jessica Mitchell
+CSCE 102
+Section: 15 
+1/18/2023-->
+
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1>Jessica Mitchell</h1>
+    </header>
+     <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul> 
+    </nav>
+    <div class="col-container"> 
+    <section> 
+    <h2>Website Development Quiz</h2> 
+    <p>
+    <label for="txt-q1">The ___ element can be used to identify your html file to the outside world.</label> 
+    <select id="txt-q1">
+    <option>title</option> 
+    <option>body</option> 
+    <option>head</option> 
+    <option>None of the above</option> 
+    </select> 
+    </p>
+    
+    <p>
+    <label for="txt-q2">What is the effect of the b tag?</label> 
+    <select id="txt-q2">
+    <option>It converts the text within it to bold font</option> 
+    <option>It is used to write back-colored font</option> 
+    <option>It is used to change the font size</option> 
+    <option>None of the above</option> 
+    </select> 
+    </p> 
+    
+    <p>
+        <label for="txt-q3">What is the color of an unvisited link?</label> 
+    <select id="txt-q3">
+    <option>red</option> 
+    <option>blue</option> 
+    <option>purple</option> 
+    <option>green</option> 
+    </select> 
+    </p>
+    
+    <p>
+        <label for="txt-q4">Which attribute is used to provide a unique name to an HTML element?</label> 
+    <select id="txt-q4">
+    <option>id</option> 
+    <option>class</option> 
+    <option>type</option> 
+    <option>None of the above</option> 
+    </select> 
+    </p>
+    
+    <button id="btn-submit" onclick="showResults()">Submit</button> 
+    </section> 
+    <section id="result" class="design hidden">
+    </section> 
+    
+<footer> 
+<p> &copy;Jessica</p> 
+</footer>
+</div>
+<script src="script.js"></script> 
+</body> 
+</html>
